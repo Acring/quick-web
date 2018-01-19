@@ -1,0 +1,19 @@
+<p>
+  username: {{username}}
+  password: {{password}}
+</p>
+
+<div>
+  <span>username</span>
+  <input [(ngModel)]="username" placeholder="请输入用户名">
+</div>
+
+<div>
+  <span>password</span>
+  <input [(ngModel)]="password" placeholder="请输入密码">
+</div>
+
+<div>
+  <button (click)="login()">登录</button>
+  <button (click)="register()">注册</button>
+</div>
